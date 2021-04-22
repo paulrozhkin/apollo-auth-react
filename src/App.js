@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import LatestComment from './graphql_test.js';
+
 
 function App() {
+
+  LatestComment();
   return (
     <div className="App">
       <header className="App-header">
